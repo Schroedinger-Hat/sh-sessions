@@ -54,8 +54,8 @@ body:
           required: false
         - label: Brussels, Belgium 🇧🇪
           required: false 
-  - id: places
-    id: first-timer
+  - id: first-timer
+    type: dropdown
     attributes:
       label: Are you a first-timer speaker?
       description: Please select the format of your talk
@@ -63,8 +63,8 @@ body:
         - Yes, it's my first talk
         - No, I have a few experiences already
         - No, I am an experienced speaker
-      validations:
-        required: true
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |

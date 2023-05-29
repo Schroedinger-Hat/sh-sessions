@@ -5,11 +5,13 @@ body:
     attributes:
       value: |
         # Guidelines
-        
+
         Remember to respect the following things while presenting your talk
 
         - Respect the Code of Conduct
         - Use an inclusive language
+
+        The sessions are streamed on YouTube, but the speaker should attend in place. If you have any question feel free to drop a few lines to our [Email](mailto:events@schrodinger-hat.it)
   - type: dropdown
     id: format
     attributes:
@@ -44,8 +46,14 @@ body:
           required: false
         - label: Verona, Italy 🇮🇹
           required: false
+        - label: Milan, Italy 🇮🇹
+          required: false
+        - label: Turin, Italy 🇮🇹
+          required: false
         - label: Paris, France 🇫🇷
           required: false
+        - label: Brussels, Belgium 🇧🇪
+          required: false 
   - id: places
     id: first-timer
     attributes:

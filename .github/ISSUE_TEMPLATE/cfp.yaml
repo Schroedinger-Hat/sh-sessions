@@ -58,13 +58,44 @@ body:
     type: dropdown
     attributes:
       label: Are you a first-timer speaker?
-      description: Please select the format of your talk
+      description: Please select one of the following
       options:
         - Yes, it's my first talk
         - No, I have a few experiences already
         - No, I am an experienced speaker
     validations:
       required: true
+  - id: level
+    type: dropdown
+    attributes:
+      label: Which is the level of your talk?
+      description: Please select the level of your talk
+      options:
+        - Introductory and overview
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+  - id: livecoding
+    type: dropdown
+    attributes:
+      label: Does your talk also contain a livecoding session?
+      description: Please select one of the following
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - id: sponsor
+    type: dropdown
+    attributes:
+      label: Is your company interested in sponsor the event?
+      description: Please select one of the following
+      options:
+        - Yes
+        - No
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |
@@ -73,6 +104,13 @@ body:
         Please leave here your main contacts so we can contact you if we need something!
 
         Remember to activate your GitHub notifications on this issue in order to be notified!
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Your Email Address
+    validations:
+      required: true
   - type: input
     id: linkedin
     attributes:

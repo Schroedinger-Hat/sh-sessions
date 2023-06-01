@@ -10,6 +10,7 @@ body:
 
         - Respect the Code of Conduct
         - Use an inclusive language
+        - English is mandatory
 
         The sessions are streamed on YouTube, but the speaker should attend in place. If you have any question feel free to drop a few lines to our [Email](mailto:events@schrodinger-hat.it)
   - type: dropdown
@@ -82,8 +83,8 @@ body:
       label: Does your talk also contain a livecoding session?
       description: Please select one of the following
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - id: sponsor
@@ -92,8 +93,8 @@ body:
       label: Is your company interested in sponsor the event?
       description: Please select one of the following
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: false
   - type: markdown

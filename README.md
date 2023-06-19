@@ -1,63 +1,31 @@
 <div align='center'>
   
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Followers][stars-shield]][stars-url]
+[![Proposals][issues-shield]][issues-url]
 
 </div>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1>Template</h1>
+  <h1>Schrödinger sessions and talks</h1>
   
-  <a href="https://github.com/Schrodinger-Hat/template">
+  <a href="https://github.com/Schrodinger-Hat/sh-sessions">
     <img src="public/sh.png" alt="Logo" width="80" height="80">
   </a>
 
   <p align="center">
     <br />
-    <a href="https://github.com/Schrodinger-Hat/template/blob/main/README.md"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://www.schrodinger-hat.it/">View Demo</a>
     ·
-    <a href="https://github.com/Schrodinger-Hat/Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Schrodinger-Hat/Template/issues">Request Feature</a>
-  </p>
+    <a href="https://github.com/Schrodinger-Hat/sh-sessions/issues/new?assignees=&labels=&projects=&template=cfp.yaml">Propose a session or a talk</a>
+    </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#tech-stack">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+## List of sessions
 
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-Here goes the description
-
-### Tech stack
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-<!-- CONTRIBUTING -->
+- [Schrödinger session: qwik!](https://www.schrodinger-hat.it/events/sh-sessions-qwik-workshop)
 
 ## Contributing
 
@@ -72,17 +40,17 @@ Don't forget to give the project a star! Thanks again!
 
 Schrodinger's Hat Team - [@schrodinger_hat](mailto:schrodinger.hat.show@gmail.com)
 
-Project Link: [https://github.com/Schrodinger-Hat/template](https://github.com/Schrodinger-Hat/template)
+Project Link: [https://github.com/Schrodinger-Hat/template](https://github.com/Schrodinger-Hat/sh-sessions)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Schrodinger-Hat/template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Schrodinger-Hat/template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Schrodinger-Hat/template.svg?style=for-the-badge
-[forks-url]: https://github.com/Schrodinger-Hat/template/network/members
-[stars-shield]: https://img.shields.io/github/stars/Schrodinger-Hat/template?style=for-the-badge
-[stars-url]: https://github.com/Schrodinger-Hat/template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Schrodinger-Hat/template.svg?style=for-the-badge
-[issues-url]: https://github.com/Schrodinger-Hat/template/issues
+[contributors-shield]: https://img.shields.io/github/contributors/Schrodinger-Hat/sh-sessions.svg?style=for-the-badge
+[contributors-url]: https://github.com/Schrodinger-Hat/sh-sessions/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Schrodinger-Hat/sh-sessions.svg?style=for-the-badge
+[forks-url]: https://github.com/Schrodinger-Hat/sh-sessions/network/members
+[stars-shield]: https://img.shields.io/github/stars/Schrodinger-Hat/sh-sessions?style=for-the-badge
+[stars-url]: https://github.com/Schrodinger-Hat/sh-sessions/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Schrodinger-Hat/sh-sessions.svg?style=for-the-badge
+[issues-url]: https://github.com/Schrodinger-Hat/sh-sessions/issues
 

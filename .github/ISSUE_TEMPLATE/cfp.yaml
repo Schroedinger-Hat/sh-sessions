@@ -54,7 +54,9 @@ body:
         - label: Paris, France 🇫🇷
           required: false
         - label: Brussels, Belgium 🇧🇪
-          required: false 
+          required: false
+        - label: London, United Kingdom 🇬🇧
+          required: false
   - id: first-timer
     type: dropdown
     attributes:

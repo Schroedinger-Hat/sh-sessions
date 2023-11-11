@@ -15,11 +15,13 @@
     <img src="public/sh.png" alt="Logo" width="80" height="80">
   </a>
 
-  <p align="center">
+  <p align="center" style="font-size:1.5em;">
     <br />
     <a href="https://www.schrodinger-hat.it/">View Demo</a>
     ·
     <a href="https://github.com/Schrodinger-Hat/sh-sessions/issues/new?assignees=&labels=&projects=&template=cfp.yaml">Propose a session or a talk</a>
+    ·
+    <a href="https://github.com/Schrodinger-Hat/sh-sessions/issues/new?assignees=&labels=&projects=&template=new-session.yaml">Organize a session</a>
     </p>
 </div>
 

@@ -38,8 +38,8 @@ body:
       label: Format
       description: Please select the format of your event
       options:
-        - Talk (30 minutes)
-        - Lightning Talk (15 minutes)
+        - Talks
+        - Lightning Talks
         - Workshop (> 2 hours)
     validations:
       required: true

@@ -1,5 +1,5 @@
-name: 🤝 Organize a new Schrödinger Hat session
-description: Create a cell in your city by organizing a Schrödinger Hat Session
+name: 🤝 Organize a new Schrödinger Session
+description: Organize a Schrödinger Session in your city
 body:
   - type: markdown
     attributes:
@@ -7,14 +7,14 @@ body:
         # Guidelines
 
         Organizing a tech event is not easy, but having a community to ask for advice and help makes everything possible.  
-        Schrödinger Hat allows you to create a CELL in your city by organizing a Schrödinger Session.
+        Schrödinger Hat helps you to create a Schrödinger Session in your city.
 
         Schrödinger Hat provides:
         - Its communication channels.
         - Its event management tools (Meetup, Eventbrite, etc.).
         - Its experience and contacts with Community Partners.
 
-        This form is designed to assist you in organizing a new Schrödinger Hat Session in your city!
+        This form is designed to assist you in organizing a new Schrödinger Session in your city!
   - type: input
     id: position
     attributes:
@@ -53,7 +53,7 @@ body:
   - id: requirements
     type: checkboxes
     attributes:
-      label: To organize a Schrödinger Hat Session 
+      label: To organize a Schrödinger Session 
       options:
         - label: The event will follow the Schrödinger Hat [Code of Conduct](https://github.com/Schrodinger-Hat/sh-sessions/blob/main/CODE_OF_CONDUCT.md)
           required: true
@@ -63,7 +63,7 @@ body:
           required: true
         - label: Talks must be given in English
           required: true
-        - label: The event must be streamed on Schrödinger Session's YouTube channel
+        - label: The event must be streamed on Schrödinger Hat's YouTube channel
           required: true
   - id: breaks
     type: dropdown

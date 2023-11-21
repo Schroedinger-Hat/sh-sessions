@@ -1,0 +1,101 @@
+name: 🤝 Organize a new Schrödinger Session
+description: Organize a Schrödinger Session in your city
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Guidelines
+
+        Organizing a tech event is not easy, but having a community to ask for advice and help makes everything possible.  
+        Schrödinger Hat helps you to create a Schrödinger Session in your city.
+
+        Schrödinger Hat provides:
+        - Its communication channels.
+        - Its event management tools (Meetup, Eventbrite, etc.).
+        - Its experience and contacts with Community Partners.
+
+        This form is designed to assist you in organizing a new Schrödinger Session in your city!
+  - type: input
+    id: position
+    attributes:
+      label: Where will the session take place?
+      description: Specify the city where you intend to organize the event
+    validations:
+      required: true
+  - id: venue
+    type: dropdown
+    attributes:
+      label: Has the venue already been chosen?
+      description: Please select one of the following
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      description: Please select the format of your event
+      options:
+        - Talks
+        - Lightning Talks
+        - Workshop (> 2 hours)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Describe the session that is scheduled to take place.
+    validations:
+      required: true
+  - id: requirements
+    type: checkboxes
+    attributes:
+      label: To organize a Schrödinger Session 
+      options:
+        - label: The event will follow the Schrödinger Hat [Code of Conduct](https://github.com/Schrodinger-Hat/sh-sessions/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+        - label: The event must be able to accommodate at least 30 people
+          required: true
+        - label: The event must host at least 2 speakers
+          required: true
+        - label: Talks must be given in English
+          required: true
+        - label: The event must be streamed on Schrödinger Hat's YouTube channel
+          required: true
+  - id: breaks
+    type: dropdown
+    attributes:
+      label: Will the event provide a networking opportunity for participants at the end?
+      description: Please select one of the following
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        # Sponsors
+
+        The Schrödinger Session must be self-financed by seeking sponsors who can finance:
+
+        - The cost of renting the event venue and insurance.
+        - The costs for renting equipment (microphones, projectors, etc.).
+        - Any costs for buffet and gadgets.
+        
+        Companies that finance the event will have the following benefits:
+        
+        - Acknowledgments during the event.
+        - Logo on the digital poster of the event.
+        - Pre-event citation on Schrödinger Hat's communication channels.
+
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Your Email Address
+    validations:
+      required: true

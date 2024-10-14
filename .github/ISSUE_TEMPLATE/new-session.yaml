@@ -6,7 +6,7 @@ body:
       value: |
         # Guidelines
 
-        Organizing a tech event is not easy, but having a community to ask for advice and help makes everything possible.  
+        Organizing a tech event is not easy, but having a community to ask for advice and help makes everything possible.
         Schrödinger Hat helps you to create a Schrödinger Session in your city.
 
         Schrödinger Hat provides:
@@ -28,8 +28,8 @@ body:
       label: Has the venue already been chosen?
       description: Please select one of the following
       options:
-        - 'Yes'
-        - 'No'
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: dropdown
@@ -53,9 +53,9 @@ body:
   - id: requirements
     type: checkboxes
     attributes:
-      label: To organize a Schrödinger Session 
+      label: To organize a Schrödinger Session
       options:
-        - label: The event will follow the Schrödinger Hat [Code of Conduct](https://github.com/Schrodinger-Hat/sh-sessions/blob/main/CODE_OF_CONDUCT.md)
+        - label: The event will follow the Schrödinger Hat [Code of Conduct](https://github.com/schroedinger-Hat/sh-sessions/blob/main/CODE_OF_CONDUCT.md)
           required: true
         - label: The event must be able to accommodate at least 30 people
           required: true
@@ -71,8 +71,8 @@ body:
       label: Will the event provide a networking opportunity for participants at the end?
       description: Please select one of the following
       options:
-        - 'Yes'
-        - 'No'
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: markdown
@@ -85,9 +85,9 @@ body:
         - The cost of renting the event venue and insurance.
         - The costs for renting equipment (microphones, projectors, etc.).
         - Any costs for buffet and gadgets.
-        
+
         Companies that finance the event will have the following benefits:
-        
+
         - Acknowledgments during the event.
         - Logo on the digital poster of the event.
         - Pre-event citation on Schrödinger Hat's communication channels.
